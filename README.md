@@ -26,7 +26,7 @@ Removing artifacts caused by multiple adverse weather, including rain, fog, and 
 
 ## Usage
 ### Quick Start
-Google Colab Demo: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./demo_weather_removal_MPDAC.ipynb)
+Google Colab Demo: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ShugoYamashita/MPDAC/blob/demo_weather_removal_MPDAC.ipynb)
 
 ### Installation
 This code has been verified to work with `torch==2.0` and `cuda==11.7`, and it is likely compatible with other versions. We are using `timm==0.6.13`, but since the necessary files are included in this repository, there is no need for a separate installation.
