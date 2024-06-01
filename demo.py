@@ -9,9 +9,9 @@ from models.ImageRestorationModel import ImageRestorationModel
 
 def get_args_parser():
     parser = argparse.ArgumentParser(description='Demonstration of adverse weather removal')
-    parser.add_argument('--load_path', type=str, help='Path to a model weights', default='./weights/Small_AllWeather.pth')
     parser.add_argument('--input_image_path', type=str, help='Path to a input image', default='./imgs/degraded_imgs/sample_raindrop.png')
     parser.add_argument('--save_dir', type=str, help='Path to a save directory', default='./imgs/restored_imgs')
+    parser.add_argument('--load_path', type=str, help='Path to a model weights', default='./weights/Small_AllWeather.pth')
     parser.add_argument('--model_size', type=str, help='model size', choices=['small', 'large'], default='small')
     return parser
 
