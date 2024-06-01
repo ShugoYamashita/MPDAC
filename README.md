@@ -25,6 +25,9 @@ We denote our proposed method as **MPDAC** (**M**asked-based **P**re-training an
 Removing artifacts caused by multiple adverse weather, including rain, fog, and snow, is crucial for image processing in outdoor environments. Conventional high-performing methods face challenges, such as requiring pre-specification of weather types and slow processing times. In this study, we propose a novel convolutional neural network-based hierarchical encoder-decoder model that addresses these issues effectively. Our model utilizes knowledge of feature representations obtained from masked-based pre-training on a large-scale dataset. To remove diverse degradations efficiently, we employ a proposed dual-pooling adaptive convolution, which improves representational capability of weight generating network by using average pooling, max pooling, and filter-wise global response normalization. Experiments conducted on both synthetic and real image datasets show that our model achieves promising results. The performance on real images is also improved by a novel learning strategy, in which a model trained on the synthetic image dataset is fine-tuned to the real image dataset. The proposed method is notably cost-effective in terms of computational complexity and inference speed. Moreover, ablation studies show the effectiveness of various components in our method.
 
 ## Usage
+### Quick Start
+Google Colab Demo: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./demo_weather_removal_MPDAC.ipynb)
+
 ### Installation
 This code has been verified to work with `torch==2.0` and `cuda==11.7`, and it is likely compatible with other versions. We are using `timm==0.6.13`, but since the necessary files are included in this repository, there is no need for a separate installation.
 
