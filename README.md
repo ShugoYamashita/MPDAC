@@ -46,10 +46,12 @@ python demo.py \
 ```
 - `--weights_path`: Path to model weights.
 - `--model_size`: small or large.
+
 Only small model weights are provided due to file size limitations. We provide './weights/Small_AllWeather.pth' in this repository.
 
 ## Citation
 If you use this code or models in your research and find it helpful, please cite the following paper:
+
 ```
 @article{yamashita2024multiple,
   title={Multiple Adverse Weather Removal using Masked-Based Pre-Training and Dual-Pooling Adaptive Convolution},
