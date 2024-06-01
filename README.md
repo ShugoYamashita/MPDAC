@@ -9,6 +9,18 @@ We denote our proposed method as **MPDAC** (**M**asked-based **P**re-training an
   <img src="imgs/MPDAC.png" width="500"/>
 </p>
 
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center"><b>Raindrop</td>
+    <td align="center"><b>Rain & Fog</td>
+    <td align="center"><b>Snow</td>
+  <tr>
+    <td> <img src="./imgs/gif/sample_raindrop.gif" alt="raindrop"></td>
+    <td> <img src="./imgs/gif/sample_rainfog.gif" alt="rainfog"></td>
+    <td> <img src="./imgs/gif/sample_snow.gif" alt="snow"></td>
+  </tr>
+</table>
+
 ## Abstract
 Removing artifacts caused by multiple adverse weather, including rain, fog, and snow, is crucial for image processing in outdoor environments. Conventional high-performing methods face challenges, such as requiring pre-specification of weather types and slow processing times. In this study, we propose a novel convolutional neural network-based hierarchical encoder-decoder model that addresses these issues effectively. Our model utilizes knowledge of feature representations obtained from masked-based pre-training on a large-scale dataset. To remove diverse degradations efficiently, we employ a proposed dual-pooling adaptive convolution, which improves representational capability of weight generating network by using average pooling, max pooling, and filter-wise global response normalization. Experiments conducted on both synthetic and real image datasets show that our model achieves promising results. The performance on real images is also improved by a novel learning strategy, in which a model trained on the synthetic image dataset is fine-tuned to the real image dataset. The proposed method is notably cost-effective in terms of computational complexity and inference speed. Moreover, ablation studies show the effectiveness of various components in our method.
 
