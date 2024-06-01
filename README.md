@@ -11,9 +11,9 @@ We denote our proposed method as **MPDAC** (**M**asked-based **P**re-training an
 
 <table border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td align="center"><b>Raindrop</td>
-    <td align="center"><b>Rain & Fog</td>
-    <td align="center"><b>Snow</td>
+    <td align="center"><b>Raindrop Removal</td>
+    <td align="center"><b>Rain & Fog Removal</td>
+    <td align="center"><b>Snow Removal</td>
   <tr>
     <td> <img src="./imgs/gif/sample_raindrop.gif" alt="raindrop"></td>
     <td> <img src="./imgs/gif/sample_rainfog.gif" alt="rainfog"></td>
