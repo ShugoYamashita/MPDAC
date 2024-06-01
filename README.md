@@ -37,13 +37,16 @@ pillow
 
 ### Demo
 ```
+cd MPDAC
 python demo.py \
     --input_image_path ./imgs/degraded_imgs/sample_raindrop.png \
     --save_dir ./imgs/restored_imgs \
-    --load_path ./weights/Small_AllWeather.pth \
+    --weights_path ./weights/Small_AllWeather.pth \
     --model_size small
 ```
-- `--model_size`: small or large. Only small model weights are provided due to file size limitations.
+- `--weights_path`: Path to model weights.
+- `--model_size`: small or large.
+Only small model weights are provided due to file size limitations. We provide './weights/Small_AllWeather.pth' in this repository.
 
 ## Citation
 If you use this code or models in your research and find it helpful, please cite the following paper:
